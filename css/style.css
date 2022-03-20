@@ -53,9 +53,6 @@ a{
 .hero-img{
     flex: 1;
 }
-.hero-img img{
-    box-shadow: 1px 1px 5px #c3c3c3;
-}
 
 .hero-maintext{
     color: #F9FAF8;
@@ -71,7 +68,7 @@ a{
 .signup{
     background: #3882F6;
     border: none;
-    padding: 5px 15px;
+    padding: 5px 20px;
     margin-bottom: 10px;
     border-radius: 5px;
     color: #F9FAF8;
@@ -126,10 +123,12 @@ blockquote{
 }
 .cta_section{
     padding: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 .cta_inner{
-    width: 80%;
+    width: 60%;
     margin: auto;
     display: flex;
     background: #3882F6;
@@ -145,6 +144,7 @@ blockquote{
     border:2px solid #F9FAF8;
     border-radius: 4px;
     outline: none;
+    color: #F9FAF8;
 }
 footer{
     background: #1F2937;
